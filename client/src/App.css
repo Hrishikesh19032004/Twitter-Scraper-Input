@@ -1,0 +1,108 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #15202b;  /* Dark background color */
+  color: white;  /* White text */
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #1da1f2;  /* Twitter blue color */
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.url-input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #1b2a36;  /* Dark input field */
+  color: white;  /* White text in input */
+}
+
+.scrape-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scrape-button:hover {
+  background-color: #1991d0;
+}
+
+.profile-card {
+  display: flex;
+  background-color: #192734;  /* Dark card background */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-info h2 {
+  font-size: 1.5rem;
+  color: #ffffff;  /* White text */
+  margin: 0;
+}
+
+.bio {
+  font-size: 1rem;
+  color: #aab8c2;  /* Lighter gray color for bio */
+  margin: 10px 0;
+}
+
+.view-posts-button {
+  padding: 10px 15px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-posts-button:hover {
+  background-color: #1991d0;
+}
+
+a {
+  color: #1da1f2;  /* Link color */
+  text-decoration: none;
+}
